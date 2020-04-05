@@ -25,7 +25,8 @@ pipeline {
     }
 
     environment {
-        awsm_code = 'git@github.worldpay.io:cloudfoundation/cfs-api.git'
+        // awsm_code = 'git@github.worldpay.io:cloudfoundation/cfs-api.git'
+        awsm_code = 'git@github.com:iejitagha/atlantis-example.git'
     }
 
     stages {
