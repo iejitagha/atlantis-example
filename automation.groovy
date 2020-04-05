@@ -7,7 +7,7 @@ pipeline {
         timestamps()
         disableConcurrentBuilds()
         skipStagesAfterUnstable()
-        sendSplunkConsoleLog()
+        // sendSplunkConsoleLog()
     }
  
     // Test 
