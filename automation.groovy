@@ -35,10 +35,17 @@ pipeline {
         stage('prepare') {
             steps {
                 cleanWs()
+                git url: env.awsm_code
                 sh "echo \"This is a test\""
             }
         }
 
+        stage('Test1') {
+            steps {pwd
+                   
+                sh "echo \"This is a test1\""
+            }
+         }
         
         // Run API Test pipeline here
 
