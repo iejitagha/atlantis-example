@@ -41,8 +41,7 @@ pipeline {
         }
 
         stage('Test1') {
-            steps {pwd
-                   
+            steps {                   
                 sh "echo \"This is a test1\""
             }
          }
